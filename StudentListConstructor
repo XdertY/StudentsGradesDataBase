@@ -1,0 +1,43 @@
+/*StudentList::StudentList(std::ifstream& dbFile):
+curr(0) , cap(5)
+{
+    this->listOfStudents = new Student[cap];
+    if(dbFile.is_open())
+    {
+        if(!(isEmpty(dbFile)))
+            while (!dbFile.eof())
+            {
+                if (this->curr == this->cap)
+                {
+                    this->expand();
+                }
+                dbFile.seekg(std::ios::beg);
+                int curFn, curGrade;
+                char *curFName;
+                char *curLName;
+                dbFile >> curFn;
+                int length;
+                length = wordLength(dbFile);
+                std::cout<<length<<std::endl;
+                curFName = new char[length + 1];
+                dbFile.seekg(-length, std::ios::cur);
+                dbFile >> curFName;
+                length = wordLength(dbFile);
+                curLName = new char[length + 1];
+                dbFile.seekg(-length, std::ios::cur);
+                dbFile >> curLName;
+                dbFile >> curGrade;
+                Student curStudent(curFn, curFName, curLName, curGrade);
+                this->listOfStudents[this->curr] = curStudent;
+                this->curr++;
+            }
+        else
+        {
+            this->listOfStudents = new Student[cap];
+            std::cout<<"Database is empty!"<<std::endl;
+        }
+    }
+    else
+        std::cerr<<"File not opened"<<std::endl;
+
+}*/

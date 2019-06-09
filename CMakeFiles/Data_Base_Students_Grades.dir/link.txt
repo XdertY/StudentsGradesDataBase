@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/Data_Base_Students_Grades.dir/main.cpp.o CMakeFiles/Data_Base_Students_Grades.dir/Student.cpp.o CMakeFiles/Data_Base_Students_Grades.dir/StudentList.cpp.o CMakeFiles/Data_Base_Students_Grades.dir/Functions.cpp.o  -o Data_Base_Students_Grades 

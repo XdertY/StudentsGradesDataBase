@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/DCC265A1C265809E/Uni/ООП/Практикум/DataBaseStudentsGrades/Functions.h
+fstream
+-
+iostream
+-
+StudentList.h
+/mnt/DCC265A1C265809E/Uni/ООП/Практикум/DataBaseStudentsGrades/StudentList.h
+
+/mnt/DCC265A1C265809E/Uni/ООП/Практикум/DataBaseStudentsGrades/Student.h
+fstream
+-
+
+/mnt/DCC265A1C265809E/Uni/ООП/Практикум/DataBaseStudentsGrades/StudentList.cpp
+StudentList.h
+/mnt/DCC265A1C265809E/Uni/ООП/Практикум/DataBaseStudentsGrades/StudentList.h
+fstream
+-
+cstring
+-
+Functions.h
+/mnt/DCC265A1C265809E/Uni/ООП/Практикум/DataBaseStudentsGrades/Functions.h
+
+/mnt/DCC265A1C265809E/Uni/ООП/Практикум/DataBaseStudentsGrades/StudentList.h
+fstream
+-
+Student.h
+/mnt/DCC265A1C265809E/Uni/ООП/Практикум/DataBaseStudentsGrades/Student.h
+

@@ -1,0 +1,3 @@
+/mnt/DCC265A1C265809E/Uni/ООП/Практикум/DataBaseStudentsGrades/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/DCC265A1C265809E/Uni/ООП/Практикум/DataBaseStudentsGrades/cmake-build-debug/CMakeFiles/Data_Base_Students_Grades.dir
+/mnt/DCC265A1C265809E/Uni/ООП/Практикум/DataBaseStudentsGrades/cmake-build-debug/CMakeFiles/edit_cache.dir
