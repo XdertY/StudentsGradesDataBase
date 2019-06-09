@@ -24,26 +24,31 @@ int main()
         switch (choice) {
             case 1:
             {
+                system("clear");
                 create(listOfStudents);
                 break;
             }
             case 2:
             {
+                system("clear");
                 listOfStudents.printDataBase();
                 break;
             }
             case 3:
             {
+                system("clear");
                 sequentialSearch(listOfStudents);
                 break;
             }
             case 4:
             {
+                system("clear");
                 update(listOfStudents);
                 break;
             }
             case 5:
             {
+                system("clear");
                 deleteStudent(listOfStudents);
                 break;
             }
